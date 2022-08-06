@@ -1,0 +1,3 @@
+I decided to use the 320*C for 150 milliseconds heat packet in my Arduino Code after testing. During Training, the gas resistance dropped and the temperature
+rose due to the properties of the burning smell detected. Humidity did not really change as well as pressure. IF statements were then created for the temperature 
+and gas resistance.
