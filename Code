@@ -103,18 +103,18 @@ String msg4 = "LowResistance";
  // Serial.println(" m");
 
  // Serial.println();
-  if ((bme.gas_resistance / 1000.0 <= 57) && (bme.temperature >= 30.5)){ //64
+  if ((bme.gas_resistance / 1000.0 <= 56) && (bme.temperature >= 30.5)){ //64
     Serial.print("BURNING SMELL DETECTED");
     cute.play(S_HAPPY);
     myOLED.text(x0, y0, msg1, 0);
 
   }
- //  if  ((bme.gas_resistance / 1000.0  >= 57) && (bme.temperature  >= 30.5)); {//64
+ //  if  ((bme.gas_resistance / 1000.0  >= 56) && (bme.temperature  >= 30.5)); {//64
   //  Serial.print("HighTemp");
    // myOLED.text(x0, y0, msg3, 0); //x2,y2
 //
 ///  }
- //  if  ((bme.gas_resistance / 1000.0  <= 57) && (bme.temperature  <= 30.5)); {//64      THESE two lines are OLED variant messages incase one or the other values are picked up
+ //  if  ((bme.gas_resistance / 1000.0  <= 56) && (bme.temperature  <= 30.5)); {//64      THESE two lines are OLED variant messages incase one or the other values are picked up
    // Serial.print("LowGasResistance");
   //  myOLED.text(x0, y0, msg4, 0);//x3,y3
 
@@ -122,7 +122,7 @@ String msg4 = "LowResistance";
   
 
   
-  if ((bme.gas_resistance / 1000.0 >= 57) && (bme.temperature <= 30.5)); { //64
+  if ((bme.gas_resistance / 1000.0 >= 56) && (bme.temperature <= 30.5)); { //64
     Serial.print("SAFE ENVIORMENT");
     myOLED.text(x1, y1, msg2, 0);//x1,y1
 
