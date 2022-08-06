@@ -1,2 +1,0 @@
-# ArduinoProjectHriday---TheBurningSmellDetector
-ArduinoProjectHriday - TheBurningSmellDetector

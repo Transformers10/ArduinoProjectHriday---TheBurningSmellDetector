@@ -1,0 +1,10 @@
+//# ArduinoProjectHriday---TheBurningSmellDetector
+//ArduinoProjectHriday - TheBurningSmellDetector - ADVANCED - Members(Hriday Muthukrishnan)(SOLO)
+
+
+IDEA - My project idea is the BurningSmellDetector, where my BME sensor paired with the OLED and the buzzer(and the esp32 feather as base) will detect and identity elements of a burning smell incase of fire, burned food, microwave issue, etc, occurs. It works essentially as a smoke alarm helping the common people live safely inside their homes. Essentially, when two certain values(that will be explained later) are picked up, a message will exploited to the buzzer, the oled, the serial monitor and to the esp32 feather to capture these values and act upon the values reciecved. Buzzer beeps if high values detected, message on OLED printed, etc.
+
+PLAN(TIMELINE) - (The First Three Weeks I was out due to vacation)
+  Week 4 - Planning/Brainstomring begins. I learn about the topic and about the new parts I am to reciveve to start formulating my project thoughts and understand what I will be working with in comparison to recent events.
+  Week 5 - PartsRecived/ToyingBegins. Parts are recieved and are used to run examples with and throughly understood to better formulate for a project idea and plan. Examples with bme and esp32 feather are run to see physcial capabilities aswell as to understand the new "heat packets" and AI Studio simulations.
+  Week 6 - ProjectWork/Assmebly/Finalization. After project plan assembled and heat packets understood, proper project building begins and line by line, our device comes to life. Demos are run to see how different heat packets react to "the burning smell" or "fire smell". With those heat packets are printed consistent values used in IF statements to react to for the OLED and Buzzer and Serial Monitor(as well as ESP32 Feather for graph/plot). Project is assembled and project is submitted in GitHub.
